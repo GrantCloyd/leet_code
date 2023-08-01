@@ -27,6 +27,7 @@ def is_palindrome_naive(x)
     stack.empty?
 end
 
+# lower space complexity and cleaner code
 def is_palindrome_better(x)
   return false if x < 0
 
