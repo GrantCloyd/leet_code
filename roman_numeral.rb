@@ -1,4 +1,3 @@
-
 # @param {String} s
 # @return {Integer}
 def roman_to_int_naive(s)
@@ -53,7 +52,7 @@ def lookup(substr)
 end
 
 
-# far less memory, cleaner syntax
+# far less memory, cleaner logic
 def roman_to_int(s)
   hash = {
     'I'=> 1,
