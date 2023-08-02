@@ -23,5 +23,5 @@ end
 p index_of("hello", 'll')
 
 def built_in(haystack, needle)
-  haystack.index(nee)
+  haystack.index(needle)
 end
